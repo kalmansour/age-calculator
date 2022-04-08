@@ -25,7 +25,7 @@ def main():
 	today = date.today()
 	
 	if dob > today:
-		print("Date of birth is invalid")
+		print("Oops!  Date of birth was invalid.  Try again...")
 	else:
 		age = get_age(dob)
 		print("Age =", age)
